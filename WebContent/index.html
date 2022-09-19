@@ -1,0 +1,177 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>EV Charging Station Finder</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords"
+	content="Augment Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript">	
+	 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+
+</script>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<!-- Custom CSS -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Graph CSS -->
+<link href="css/font-awesome.css" rel="stylesheet">
+<!-- jQuery -->
+<link
+	href='//fonts.googleapis.com/css?family=Roboto:700,500,300,100italic,100,400'
+	rel='stylesheet' type='text/css'>
+<!-- lined-icons -->
+<link rel="stylesheet" href="css/icon-font.min.css" type='text/css' />
+<!-- //lined-icons -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/amcharts.js"></script>
+<script src="js/serial.js"></script>
+<script src="js/light.js"></script>
+<script src="js/radar.js"></script>
+<link href="css/barChart.css" rel='stylesheet' type='text/css' />
+<link href="css/fabochart.css" rel='stylesheet' type='text/css' />
+<!--clock init-->
+<script src="js/css3clock.js"></script>
+
+<script src="js/skycons.js"></script>
+
+<script src="js/jquery.easydropdown.js"></script>
+
+
+</head>
+<body>
+	<div class="page-container">
+		<!--/content-inner-->
+		<div class="left-content">
+			<div class="inner-content">
+				<!-- header-starts -->
+				<div class="header-section">
+					<div class="clearfix"></div>
+
+				</div>
+				<!--//menu-right-->
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="outter-wp">
+
+				<div class="profile-nav alt">
+					<section class="panel">
+						<div class="user-heading alt clock-row terques-bg">
+							<h3 class="sub-tittle clock">Easy Clock</h3>
+						</div>
+						<ul id="clock">
+							<li id="sec"></li>
+							<li id="hour"></li>
+							<li id="min"></li>
+						</ul>
+
+						<ul class="clock-category">
+							<li><a href="#" class="active"> <img
+									src="images/time.png" alt=""> <span>Clock</span>
+							</a></li>
+							<li><a href="#"> <img src="images/alarm.png" alt="">
+									<span>Alarm</span>
+							</a></li>
+							<li><a href="#"> <img src="images/watch.png" alt="">
+									<span>Stop watch</span>
+							</a></li>
+							<li><a href="#"> <img src="images/timer.png" alt="">
+									<span>Timer</span>
+							</a></li>
+						</ul>
+
+					</section>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<footer>
+		<p>&copy 2022 Kundan Mali . All Rights Reserved | Design by Kundan
+			Mali</p>
+	</footer>
+	<!--footer section end-->
+
+
+	<div class="sidebar-menu">
+		<header class="logo">
+			<a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span>
+			</a> <a href="index.html"> <span id="logo">
+					<h1>EVC Station</h1>
+			</span> <!--<img id="logo" src="" alt="Logo"/>-->
+			</a>
+		</header>
+		<div style="border-top: 1px solid rgba(69, 74, 84, 0.7)"></div>
+
+
+		<div class="menu">
+			<ul id="menu">
+				<li><a href="index.html"><i class="fa fa-tachometer"></i> <span>Dashboard</span></a></li>
+				<li id="menu-academico"><a href="#"><i class="fa fa-table"></i>
+						<span>Admin</span> <span class="fa fa-angle-right"
+						style="float: right"></span></a>
+					<ul id="menu-academico-sub">
+						<li id="menu-academico-avaliacoes"><a href="adminlog.html">Login</a></li>
+					</ul></li>
+				<li id="menu-academico"><a href="#"><i
+						class="fa fa-file-text-o"></i> <span>Charging Stations</span> <span
+						class="fa fa-angle-right" style="float: right"></span></a>
+					<ul id="menu-academico-sub">
+						<li id="menu-academico-avaliacoes"><a href="subadminlog.html">Login</a></li>
+						<li id="menu-academico-boletim"><a href="regsubadmin.html">Register</a></li>
+					</ul></li>
+				
+				<li id="menu-academico"><a href="#"><i
+						class="fa fa-file-text-o"></i> <span>User</span> <span
+						class="fa fa-angle-right" style="float: right"></span></a>
+					<ul id="menu-academico-sub">
+						<li id="menu-academico-avaliacoes"><a href="userlog.html">Login</a></li>
+						<li id="menu-academico-boletim"><a href="reguser.html">Register</a></li>
+					</ul>
+				</li>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<script>
+		var toggle = true;
+
+		$(".sidebar-icon").click(
+				function() {
+					if (toggle) {
+						$(".page-container").addClass("sidebar-collapsed")
+								.removeClass("sidebar-collapsed-back");
+						$("#menu span").css({
+							"position" : "absolute"
+						});
+					} else {
+						$(".page-container").removeClass("sidebar-collapsed")
+								.addClass("sidebar-collapsed-back");
+						setTimeout(function() {
+							$("#menu span").css({
+								"position" : "relative"
+							});
+						}, 400);
+					}
+
+					toggle = !toggle;
+				});
+	</script>
+	<!--js -->
+	<link rel="stylesheet" href="css/vroom.css">
+	<script type="text/javascript" src="js/vroom.js"></script>
+	<script type="text/javascript" src="js/TweenLite.min.js"></script>
+	<script type="text/javascript" src="js/CSSPlugin.min.js"></script>
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/scripts.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
