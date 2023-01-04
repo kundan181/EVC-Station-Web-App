@@ -1,4 +1,4 @@
----------------------------------------------------------  EV Charging Station | WebApp   --------------------------------------------------------------------
+---------------------------------------------------------  EV Charging Station | WebApp   ------------------------------------------------------------------
 
 The future of the automotive industry lies with the electric automobiles. There is a rising demand for Electric Cars and Application to find EV Charging Station due to 
 their favorable effects on the enivironment and governments, increasing the awareness of this issue globally. Electirc vehicles are less expensive over the long term than 
